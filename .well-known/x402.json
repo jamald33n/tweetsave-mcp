@@ -1,0 +1,12 @@
+{
+  "name": "jamald33n/tweetsave-mcp",
+  "description": "📝 Fetch Twitter/X content and convert it into blog posts using the MCP server for seamless integration and easy content management.",
+  "accepts": [
+    {
+      "network": "eip155:8453",
+      "asset": "USDC",
+      "address": "YOUR_WALLET_ADDRESS"
+    }
+  ],
+  "resources": []
+}
