@@ -1,72 +1,91 @@
-# 🐦 tweetsave-mcp - Analyze Tweets Without an API Key
+# tweetsave-mcp
 
-## 🚀 Getting Started
+Analyze public Twitter/X posts from MCP clients.
 
-Welcome to TweetSave MCP! This application allows you to analyze Twitter/X content efficiently, without wasting tokens. You can fetch tweets and download media directly, making your social media experience smoother.
+TweetSave MCP fetches known tweet URLs or tweet IDs, formats tweet and thread
+content as Markdown or JSON, converts tweets into blog-post drafts, and extracts
+tweet media links. It is useful when an agent already has the tweet URL or ID
+and needs structured content without adding a custom Twitter parser.
 
-## 📥 Download Now
+## Install
 
-[![Download TweetSave MCP](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip%20TweetSave%https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip)](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip)
+Run the package directly with `npx`:
 
-## 📂 Features
+```bash
+npx -y tweetsave-mcp
+```
 
-- Fetch the latest tweets from any public account.
-- Download images and videos directly from tweets.
-- Minimal setup with no need for an API key.
-- User-friendly interface for hassle-free analysis.
+Or install it globally:
 
-## 💻 System Requirements
+```bash
+npm install -g tweetsave-mcp
+tweetsave-mcp
+```
 
-Before you begin, make sure your system meets the following requirements:
+The package is published on npm as `tweetsave-mcp`.
 
-- Windows 10 or later, macOS 10.15 or later, or any recent Linux distribution.
-- At least 500 MB of free disk space.
-- Internet connection for fetching tweets.
+## Tools
 
-## 🌐 Download & Install
+- `tweetsave_get_tweet` fetches one public tweet by URL or ID.
+- `tweetsave_get_thread` fetches the main tweet in a thread flow.
+- `tweetsave_to_blog` converts a tweet into a Markdown blog-post draft.
+- `tweetsave_batch` fetches up to 10 tweet URLs or IDs.
+- `tweetsave_extract_media` extracts photo and video links from a tweet.
 
-To get started, visit the [Releases page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip) to download the latest version of TweetSave MCP.
+## Example MCP Config
 
-1. Click on the link above to go to the Releases page.
-2. Find the latest release.
-3. Click on the appropriate file for your operating system to download it.
-4. After the download completes, locate the file on your computer.
-5. Double-click the file to run the installation process.
-6. Follow the prompts to complete the installation.
+```json
+{
+  "mcpServers": {
+    "tweetsave": {
+      "command": "npx",
+      "args": ["-y", "tweetsave-mcp"]
+    }
+  }
+}
+```
 
-## 🔧 How to Use
+## Use With OpenClaw And TweetClaw
 
-Once you have installed TweetSave MCP, you can start using it:
+TweetSave MCP is a focused MCP server for known tweet URLs and tweet IDs. If an
+OpenClaw agent also needs query-driven X/Twitter workflows, install
+[TweetClaw](https://github.com/Xquik-dev/tweetclaw) beside TweetSave:
 
-1. **Launch the Application:** Open the TweetSave MCP from your desktop or applications menu.
-2. **Enter Twitter Account:** In the text box, type the username of the Twitter account you want to analyze.
-3. **Fetch Tweets:** Click on the “Fetch Tweets” button to retrieve the latest tweets from the account.
-4. **Download Media:** If any tweets contain media, simply click the download links to save them to your computer.
-5. **Analyze Data:** Use the built-in tools to view tweet analytics, such as engagement metrics and content types.
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
 
-## 🛠️ Troubleshooting
+TweetClaw covers search tweets, search tweet replies, scrape tweets from search
+results, follower export, user lookup, media upload, media download, direct
+messages, monitor tweets, webhooks, giveaway draws, and approval-gated post
+tweets or post tweet replies. Use TweetClaw to discover or monitor public
+X/Twitter material, then pass reviewed tweet URLs or tweet IDs to TweetSave MCP
+when you want blog-ready Markdown or media links.
 
-If you encounter issues while running the application, consider the following:
+Keep API keys and signing material in local OpenClaw or MCP client config. Do
+not paste those values into prompts, docs, or issue comments.
 
-- **Check Internet Connection:** Ensure you have a stable internet connection.
-- **Restart Application:** Sometimes, simply closing and reopening the application can resolve minor glitches.
-- **Reinstall the Application:** If problems persist, uninstall TweetSave MCP and reinstall it using the steps above.
+## Development
 
-## 📋 FAQs
+Install dependencies and build the TypeScript output:
 
-**Q: Do I need an API key to use TweetSave MCP?**  
-A: No, you can use the application without an API key.
+```bash
+npm install
+npm run build
+```
 
-**Q: Can I use TweetSave MCP on my mobile device?**  
-A: Currently, TweetSave MCP is available only for desktop systems.
+Start the stdio server after building:
 
-**Q: Where can I report issues or suggest features?**  
-A: You can open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip).
+```bash
+npm run start
+```
 
-## 📞 Support
+Start the HTTP server after building:
 
-For additional support, you can reach out via the project's [GitHub page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip).
+```bash
+npm run start:http
+```
 
----
+## License
 
-Thank you for choosing TweetSave MCP. We hope you find it useful for your Twitter/X analysis needs!
+MIT
