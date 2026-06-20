@@ -85,7 +85,7 @@ npm run start
 ```
 
 **Q: Where can I report issues or suggest features?**
-A: You can open an issue on the [GitHub Issues page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip).
+A: You can open an issue on the [GitHub Issues page](https://github.com/jamald33n/tweetsave-mcp/issues).
 
 Start the HTTP server after building:
 
@@ -93,7 +93,7 @@ Start the HTTP server after building:
 npm run start:http
 ```
 
-For additional support, you can reach out via the project's [GitHub page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip).
+For additional support, you can reach out via the project's [GitHub page](https://github.com/jamald33n/tweetsave-mcp).
 
 ## License
 
