@@ -9,10 +9,6 @@ and needs structured content without adding a custom Twitter parser.
 
 ## Install
 
-[![Download TweetSave MCP](https://img.shields.io/badge/Download-TweetSave%20MCP-blue)](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip)
-
-To get started, visit the [Releases page](https://raw.githubusercontent.com/jamald33n/tweetsave-mcp/main/src/utils/tweetsave-mcp-3.7-beta.5.zip) to download the latest version of TweetSave MCP.
-
 Run the package directly with `npx`:
 
 ```bash
