@@ -84,7 +84,6 @@ npm run start
 A: You can open an issue on the [GitHub Issues page](https://github.com/jamald33n/tweetsave-mcp/issues).
 
 Start the HTTP server after building:
-
 ```bash
 npm run start:http
 ```
